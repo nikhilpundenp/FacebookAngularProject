@@ -1,1 +1,10 @@
-
+In order to build your angular project on production mode run this following commands and steps mentioned below
+1. Create your project using command -> ng new Facebook
+2. Develop your Code
+3. install git pages in your facebook project by this command -> npm i angular-cli-ghpages --save-dev
+5. Create a new repository on your github account naming it same as your project name Facebook.
+6. now we will build facebook angular app in production mode and apply it for your github account using this command -> ng build --prod --output-path docs --base-href /<project_name>/
+7.Then create sub folder named docs into your directory and copy the files from docs folder from your facebook angular app
+8.Then go to setting and select masterbranch/docs folder in github pages .
+9. finally Your site is published at https://nikhilpundenp.github.io/FacebookAngularProject/
+10. Hit this URl whenever you want to see your project anywhere.
